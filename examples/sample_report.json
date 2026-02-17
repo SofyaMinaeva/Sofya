@@ -1,0 +1,45 @@
+{
+  "employee": {
+    "name": "Мария Иванова",
+    "role": "Team Lead",
+    "department": "Продуктовая разработка"
+  },
+  "competencies": [
+    {
+      "name": "Лидерство",
+      "ratings": [
+        {"group": "self", "score": 4.5},
+        {"group": "manager", "score": 4.2},
+        {"group": "peers", "score": 4.0},
+        {"group": "reports", "score": 4.3}
+      ]
+    },
+    {
+      "name": "Коммуникация",
+      "scores": {
+        "self": 4.0,
+        "manager": 3.8,
+        "peers": 3.6,
+        "reports": 3.9
+      }
+    },
+    {
+      "name": "Стратегическое мышление",
+      "scores": {
+        "self": 3.7,
+        "manager": 3.4,
+        "peers": 3.2,
+        "reports": 3.3
+      }
+    },
+    {
+      "name": "Управление изменениями",
+      "scores": {
+        "self": 3.5,
+        "manager": 3.1,
+        "peers": 3.0,
+        "reports": 3.2
+      }
+    }
+  ]
+}
